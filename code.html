@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitals Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="lato-regular  ">
+    <header class="bg-color z"> 
+        <nav class="total-nav ">
+
+            <div class="nav-left  ">
+                <h1 class="text-white"> Home</h1>
+            </div>
+
+            <div  class="nav-mid flex " >
+                <a href="#" class="text-white p-lr m no-underline" >Services</a> 
+                <a href="#" class="text-white p-lr m no-underline" >Find</a> 
+                <a href="#" class="text-white p-lr m no-underline" >Contact</a> 
+            </div>
+
+            <div class="nav-right flex ">
+                <a href="#" class="text-white  p-lr m no-underline" >Login</a>
+                <button class="no-underline signup-color p-tblr bod-rad lato-regular">Sign Up</button>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <img src="images/mountain wallpaper.jpg" alt="image of a mountain" class="width position">
+    <h1>Where Emergency Care and Health Come First</h1>
+    <main class="part-1 ">
+        <div class="part-1L margin1">
+            <h1 > The content of the main hospital informatioin goes here </h1>
+            <h2 > other information of the hospital content goes next to here in small font compared to the above   </h2>
+        </div>
+
+        <div class="part-1R margin1">
+            <img src="images/Female Doctor.jpg" alt="image of female doctor" height="600px">
+        </div>
+
+    </main>
+
+    <main class="part-2">
+
+        <div class="part2.L margin1">
+            <img src="images/male doctor.avif" alt="image of male doctor" height="400px">
+        </div>
+
+        <div class="part-2.R margin1">
+            <h1> Information about the services provided by the hospital and care 24/7 here  </h1>
+            <h2> here i will be copy pasting the content from care hospital and appolo hospitals    </h2>
+        </div>
+
+    </main>
+
+    <scroll>
+        <div class="scroll-flex">
+            <div class="Cardiology">
+                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/cardiology_icon.svg" alt="Cardiology">
+                <p>Cardiology</p>
+            </div>
+
+            <div class="Neurology">
+                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/neurology.svg" alt="Neurology">
+                <p>Neurology</p>
+            </div>
+
+            <div class="Gastroenterology">
+                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/gastroenterology.svg" alt="gastroenterology" >
+                <p>Gastroenterology</p>
+            </div>
+
+            <div class="Pulmonology">
+                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/pulmonology.svg" alt="Pulmonology">
+                <p>Pulmonology</p>
+            </div>
+
+            <div class="Orthopaedic">
+                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/orthopaedic.svg" alt="Orthopaedic">
+                <p>Orthopaedic</p>
+            </div>
+
+            <div class="Oncology">
+                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/oncology_icon.svg" alt="Oncology">
+                <p>Oncology</p>
+            </div>
+
+        </div>
+    </scroll>
+
+    <form>
+       <div class="form total">
+         
+        <div class="name">
+            <label for="First name" >First name</label>
+            <input type="text" placeholder="First name" name="First name" required>
+
+            <label for="Last name" >Last name</label>
+            <input type="text" placeholder="Last name" name="Last name" required>
+
+        </div>
+
+        <br>
+        <br>
+
+        <label for="Email" >Email</label>
+        <input type="email" placeholder="Email" name="Email" required>
+
+        <label for="Phone number">Phone number</label>
+        <input type="tel" placeholder="Phone number " name="Phone number" required>
+
+      
+        <br>
+        <br>
+
+        <label for="DOB" >DOB</label>
+        <input type="date" placeholder="DOB" name="DOB" required>
+
+        <label>Sex: </label>
+        <input type="radio" name="Sex"><label>Male</label>
+        <input type="radio" name="Sex"><label>Female</label>
+
+        <br>
+        <br>
+
+        <label for="Department">Department:</label>
+    <select id="Department">
+
+        <optgroup label="Radiology Department">
+            <option>X-Ray</option>
+            <option>MRI</option>
+            <option>CT Scan</option>
+            <option>Ultrasound</option>
+            <option>Interventional Radiology</option>
+        </optgroup>
+
+        <optgroup label="Laboratory Department">
+            <option>Hematology</option>
+            <option>Microbiology</option>
+            <option>Biochemistry</option>
+            <option>Pathology</option>
+
+        </optgroup>
+
+        <optgroup label="Cardiology Department">
+            <option>Cath Lab</option>
+            <option>Echo Lab </option>
+            <option>Stress Testing Room</option>
+        </optgroup>
+
+        <optgroup label="Oncology Department">
+            <option>Chemotherapy Unit</option>
+            <option>Radiation Therapy </option>
+            <option>Oncology ward </option>
+            <option>Obstetrics and Gynecology Department </option>
+        </optgroup>
+
+    </select>
+
+
+        <br>
+        <br>
+
+
+        <label for="Message">Message: </label>
+        <textarea name="Message" required></textarea>
+
+        <br>
+        <br>
+
+
+        <button type="submit" >Submit</button>
+        <button type="reset" >Reset</button>
+
+
+       </div>
+        
+
+    </form>
+
+    <footer>
+       <p> contact info 
+        number: 123456789
+        Adress: 123 abcd ts , 50043 </p>
+    </footer>
+</body>
+
+</html>

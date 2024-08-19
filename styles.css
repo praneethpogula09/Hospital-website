@@ -1,0 +1,129 @@
+body{
+     margin: 0;
+     padding: 0;
+}
+
+/* changin the color of <a> default blue color to white    */
+.text-white{
+    color:rgb(0, 0, 0);
+}
+
+/* changing the bagroung color of nav-bar  */
+.bg-color{
+    /* background-color: rgb(102, 44, 149); */
+}
+
+/* converting all the elements to a block to style them */
+/* especially used for <a> coz it is a inline property by default */
+.block{
+    display: block;
+}
+
+
+/* using flex property to modify nav bar makes the parent class to flex */
+
+.flex{
+    /* to put the children div's from one on each other to side by side  */
+    display: flex;
+    /* to get equal spacing horizontally for all the children inside the parent Div */
+    justify-content: space-between;
+    /* to allign in the same line of height  */
+    align-items: baseline;
+}
+
+/* to allign all the parent divs (left , mid , right ) next to each other  */
+.total-nav{
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+
+/* to give the margin to the nav bar items helps to not click accidentally  */
+ .m{
+    margin: 0px 60px;
+    
+}
+
+/* padding for the (nav-mid) part to allign equally  */
+.p-lr{
+    padding: 0px 20px;
+}
+
+/* font family from different website */
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* to remove the underline under the nav bar <a> tags  */
+.no-underline{
+    text-decoration: none;
+}
+
+
+/* changes to the SIGN-UP Button  */
+.signup-color{
+    /* to change the baground color */
+    background-color: #3a86ff;
+}
+.p-tblr{
+    /* to ncrease the sizr of the button icon */
+    padding: 10px 10px;
+}
+.bod-rad{
+    /* to make the button round */
+    border-radius: 20px;
+}
+
+
+
+/* editing for part-1  */
+
+.part-1{
+    display: flex;
+    justify-content:space-between;
+}
+
+/* margin for both part 1 & 2 */
+.margin1{
+    margin: 50px;
+    padding: 30px;
+}
+
+/* for part 2  */
+.part-2{
+    display: flex;
+    justify-content:space-between;
+}
+
+/* to set the Z-axis */
+
+.z{
+    position: relative;
+    z-index: 10;
+}
+
+
+/* editing the montain image for the baground */
+
+/* to put the width of image = the parentsize  */
+.width{
+    width: 100%;
+}
+
+/* to set the image to the top , behind the nav bar */
+.position{
+    position: relative;
+    top: -70px;
+}
+
+
+
+
+/* using flex property for the scrooling icons  */
+
+.scroll-flex{
+    display: flex;
+    justify-content: space-around;
+}
